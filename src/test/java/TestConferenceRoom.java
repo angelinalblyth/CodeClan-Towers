@@ -59,5 +59,5 @@ public class TestConferenceRoom {
 //        conference2.addGuest(guest1);
 //        conference2.addGuest(guest2);
 //        assertEquals(1, conference2.countGuest());
-//    } COME BACK TO THIS.
+//    }
 }
