@@ -9,6 +9,7 @@ public class TestHotel {
 
     Hotel hotel;
     Guest guest1;
+    Guest guest2;
     Conference conference1;
 
 
@@ -17,6 +18,7 @@ public class TestHotel {
         hotel = new Hotel();
         conference1 = new Conference("Manchester", 4, 10);
         guest1 = new Guest("Angelina");
+        guest2 = new Guest("Louise");
     }
 
     @Test
@@ -39,10 +41,15 @@ public class TestHotel {
     @Test
     public void checkOutGuest(){
         hotel.checkInGuest(conference1, guest1);
-        hotel.checkOutGuest(conference1, guest1);
+        hotel.checkOutGuest(conference1, guest2);
         assertEquals(0, conference1.countGuest());
     }
 
-
-
+//    @Test
+//    public void checkGuestListInRoom() {
+//        hotel.checkInGuest(conference1, guest1);
+//        hotel.checkInGuest(conference1, guest2);
+//
+//        assertEquals("Angelina", conference1.getGuests());
+//    }
 }
