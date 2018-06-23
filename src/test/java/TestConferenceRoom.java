@@ -54,10 +54,10 @@ public class TestConferenceRoom {
         assertEquals(1, conference1.countGuest());
     }
 
-//    @Test
-//    public void checkCantAddMoreGuestsThanCapacity() {
-//        conference2.addGuest(guest1);
-//        conference2.addGuest(guest2);
-//        assertEquals(1, conference2.countGuest());
-//    }
+    @Test
+    public void checkCantAddMoreGuestsThanCapacity() {
+        conference2.addGuest(guest1);
+        conference2.addGuest(guest2);
+        assertEquals(1, conference2.countGuest());
+    }
 }
