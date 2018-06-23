@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c22a808f-7399-4cab-8f6e-6c428af7f186" name="Default" comment="" />
+    <list default="true" id="c22a808f-7399-4cab-8f6e-6c428af7f186" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBedroom.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +30,10 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
@@ -80,20 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBedroom.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBedroom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Types.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Types.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Types.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#265#266#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -107,9 +110,10 @@
       <file leaf-file-name="Conference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Conference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="255">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
+                <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
               </folding>
@@ -150,11 +154,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestGuest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Guest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Conference.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestConferenceRoom.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Types.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
       </list>
     </option>
   </component>
@@ -243,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConferenceRoom.checkCantAddMoreGuestsThanCapacity">
+  <component name="RunManager" selected="JUnit.TestConferenceRoom.getRoomName">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -298,13 +302,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConferenceRoom.getDailyRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConferenceRoom.getRoomName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClan-Towers" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestConferenceRoom" />
-      <option name="METHOD_NAME" value="getDailyRate" />
+      <option name="METHOD_NAME" value="getRoomName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -371,19 +375,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestConferenceRoom.getDailyRate" />
       <item itemvalue="JUnit.TestConferenceRoom.guestListIsEmpty" />
       <item itemvalue="JUnit.TestConferenceRoom.addGuestToRoom" />
       <item itemvalue="JUnit.TestConferenceRoom.canRemoveGuests" />
       <item itemvalue="JUnit.TestConferenceRoom.checkCantAddMoreGuestsThanCapacity" />
+      <item itemvalue="JUnit.TestConferenceRoom.getRoomName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestConferenceRoom.getRoomName" />
         <item itemvalue="JUnit.TestConferenceRoom.checkCantAddMoreGuestsThanCapacity" />
         <item itemvalue="JUnit.TestConferenceRoom.canRemoveGuests" />
         <item itemvalue="JUnit.TestConferenceRoom.addGuestToRoom" />
         <item itemvalue="JUnit.TestConferenceRoom.guestListIsEmpty" />
-        <item itemvalue="JUnit.TestConferenceRoom.getDailyRate" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +401,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529679032102</updated>
-      <workItem from="1529679037239" duration="4652000" />
+      <workItem from="1529679037239" duration="5830000" />
     </task>
     <servers />
   </component>
@@ -428,7 +432,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4652000" />
+    <option name="totallyTimeSpent" value="5830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -436,7 +440,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32900944" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32900944" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -444,7 +448,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -478,28 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Guest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -525,13 +507,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Conference.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,23 +545,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Conference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Types.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>

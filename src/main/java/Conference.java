@@ -8,11 +8,15 @@ public class Conference extends Room{
     private Integer dailyrate;
 
     public Conference(String name, int capacity, int dailyrate) {
-        super(name, capacity);
-
+        super(capacity);
+        this.name = name;
         this.guests = new ArrayList<Guest>();
 
         this.dailyrate = dailyrate;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public Integer getDailyRate() {

@@ -1,6 +1,6 @@
-public enum Types {
+public enum Type {
     SINGLE("Single", 1),
-    DOUBLE("Double", 2)
+    DOUBLE("Double", 2);
 
     private String type;
     private int capacity;

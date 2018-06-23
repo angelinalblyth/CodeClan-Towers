@@ -7,7 +7,7 @@ public class TestBedroom {
 
     @Before
     public void setUp() throws Exception {
-        bedroom1 = new Bedroom("")
+        bedroom1 = new Bedroom()
 
     }
 }
