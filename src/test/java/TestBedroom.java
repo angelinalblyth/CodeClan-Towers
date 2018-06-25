@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 
 public class TestBedroom {
 
+
+
     Bedroom bedroom1;
     Bedroom bedroom2;
 
